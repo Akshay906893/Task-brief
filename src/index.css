@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-navy: #0d1b4c;
+  --color-gold: #f5b800;
+  --color-cream: #fbf8f1;
+  --color-night: #0a0f24;
+  --color-panel: #121936;
+  --font-display: Georgia, 'Times New Roman', serif;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-cream text-navy transition-colors duration-500 dark:bg-night dark:text-cream; }
+h1, h2, h3 { font-family: var(--font-display); }
+
+@media (pointer: fine) {
+  body, a, button { cursor: none; }
+}
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+.animate-marquee { animation: marquee 34s linear infinite; }
+.animate-marquee:hover { animation-play-state: paused; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-marquee { animation: none; }
+}
