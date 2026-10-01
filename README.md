@@ -46,7 +46,7 @@ The public repository is [Akshay906893/Task-brief](https://github.com/Akshay9068
 
 ### GitHub Pages
 
-Expected site URL: <https://akshay906893.github.io/Task-brief/>. It becomes available after the first successful deployment.
+Live site: <https://akshay906893.github.io/Task-brief/>.
 
 1. In the repository, open **Settings > Pages** and set the source to **GitHub Actions**.
 2. Push to `main` or run the **Deploy GitHub Pages** workflow manually from the Actions tab.
