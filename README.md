@@ -42,7 +42,19 @@ The production files are generated in `dist/`.
 
 ## Deploy
 
-Push the project to a GitHub repository, then import that repository into Vercel or Netlify.
+The public repository is [Akshay906893/Task-brief](https://github.com/Akshay906893/Task-brief). Import it into either provider:
+
+### Vercel
+
+1. Sign in to Vercel and choose **Add New... > Project**.
+2. Import `Akshay906893/Task-brief` from GitHub.
+3. Use the settings below and select **Deploy**.
+
+### Netlify
+
+1. Sign in to Netlify and choose **Add new site > Import an existing project**.
+2. Connect GitHub and select `Akshay906893/Task-brief`.
+3. Use the settings below and select **Deploy site**.
 
 | Setting | Value |
 | --- | --- |
